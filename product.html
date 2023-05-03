@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>product</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230503232714">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js?_v=20230503232714"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__line-contact contact-line">
+					<select name="form[]" data-class-modif="form">
+						<option value="1" selected>Киев</option>
+						<option value="2">Харьков</option>
+						<option value="3">Полтава</option>
+						<option value="4">Мариуполь</option>
+					</select>
+					<a class="contact-line__tel" type="tel" href="tel:+84952592500">8 495 259 25 00</a>
+				</div>
+				<div class="header__line-menu menu-line">
+					<div class="menu-line__content">
+						<div class="menu-line__content-menu menu-content">
+							<a href="index.html"><img class="menu-content__img" src="img/header/logo.svg"
+									alt="KK Shop"></a>
+							<div class="menu-content__menu menu">
+								<button type="button" class="menu__icon icon-menu"><span></span></button>
+								<nav class="menu__body">
+									<ul class="menu__list">
+										<li class="menu__item"><a href="katalog.html" class="menu__link">Каталог</a>
+										</li>
+										<li class="menu__item"><a href="club.html" class="menu__link">Клуб
+												косметологов</a></li>
+										<li class="menu__item"><a href="setrifikat.html"
+												class="menu__link">Сертификаты</a></li>
+										<li class="menu__item"><a href="pay.html" class="menu__link">Доставка и
+												оплата</a>
+										</li>
+										<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a>
+										</li>
+										<li class="menu__item"><a href="blog.html" class="menu__link">Блог</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="menu-line__content-icons icons-content">
+
+							<form action="" class="form icons-content__form">
+								<input id="elastic" class="icons-content__input" type="text"
+									placeholder="Искать здесь...">
+								<button class="icons-content__btn" type="submit">
+									<img src="img/header/search.svg" alt="search" class="icons-content__img">
+								</button>
+								<ul class="elastic">
+									<a href="https://css-tricks.com/css-link-hover-effects/">
+										<li class="display-none-for-card">Lorem ipsum dolor sit amet consectetur,
+											adipisicing
+											elit. Cumque velit labore ipsam corrupti, dolores possimus dicta nihil
+											deserunt
+											maxime, fugiat soluta quia ut fuga eos vel nobis sapiente qui reprehenderit.
+											<span hidden>123 321 213 312</span>
+										</li>
+									</a>
+									<li class="display-none-for-card">Lorem ipsum dolor sit amet, consectetur
+										adipisicing elit.
+										Beatae veritatis magni deleniti molestias enim maiores reiciendis distinctio
+										vero unde,
+										quidem hic eos, corporis possimus incidunt! Quam ipsa sapiente eos quasi.</li>
+									<li class="display-none-for-card">Lorem ipsum dolor sit amet consectetur adipisicing
+										elit.
+										Asperiores fugit sunt quam vel ducimus rem. Dolore corrupti facilis
+										reprehenderit alias,
+										pariatur ab soluta impedit eligendi incidunt, omnis, ad placeat numquam?</li>
+								</ul>
+							</form>
+							<a href="" class="icons-content__link">
+								<img src="img/header/heart.svg" alt="heart" class="icons-content__img">
+							</a>
+							<div class="icons-content__shop">
+								<button type="button" href="" class="icons-content__link icons-content__link-shop">
+									<img src="img/header/shop.svg" alt="shop" class="icons-content__img">
+								</button>
+							</div>
+							<a href="" class="icons-content__link">
+								<img src="img/header/user.svg" alt="user" class="icons-content__img">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__shop shop">
+				<div class="shop__container">
+					<a href="" class="shop__close">✖</a>
+					<h3 class="shop__title">Корзина</h3>
+					<p class="shop__text">быстрая доставка</p>
+					<div class="cart-list"></div>
+					<div class="shop__next-page">
+						<a href="index.html">Оформить заказ</a>
+					</div>
+					<p style="color: red; font-weight: 700;">p.s. this basket was created exclusively in the demo
+						version, exclusively for
+						demonstration
+						purposes. A lot of functionality is cut out as it is created just for demonstration and clarity
+					</p>
+				</div>
+			</section>
+			<section class="page__product-card product-card">
+				<div class="product-card__container">
+					<nav class="product-card__navigation navigation-product-card">
+						<ul class="navigation-product-card__links">
+							<li class="navigation-product-card__link"><a href="index.html">Главная</a></li>
+							<span>/</span>
+							<li class="navigation-product-card__link"><a href="index.html">Уход за волосами</a></li>
+							<span>/</span>
+							<li class="navigation-product-card__link"><a href="index.html">Бальзамы ополаскиватели</a>
+							</li>
+						</ul>
+					</nav>
+					<div data-pid="2" class="product-card__content">
+						<div class="product-card__image">
+							<picture>
+								<source srcset="img/page-product/lc.webp" type="image/webp"><img
+									class="product-card__image-img _ibg" src="img/page-product/lc.png" alt="">
+							</picture>
+						</div>
+						<div class="product-card__items items-product-card">
+							<div class="items-product-card__name">Тоник для лица освежающий охлаждающий</div>
+							<h2 class="items-product-card__title">
+								<span>Skindom</span> Luxury cell pepride Deep Cleansing oil
+							</h2>
+							<div class="items-product-card__article">Артикул: 19000000618</div>
+							<div class="items-product-card__ml weight-card">
+								<div class="weight-card__1500">1500</div>
+								<div class="weight-card__ml">объем / мл</div>
+							</div>
+							<div class="items-product-card__price">
+								<div class="items-product-card__price-new">
+									<span class="new-price">2 480 руб</span>
+									<span class="new-price-sale-on"> Со скидкой 44% </span>
+								</div>
+								<div class="items-product-card__price-old">
+									<span class="old-price">3579 руб</span>
+									<span class="new-price-sale-no"> Без скидки </span>
+								</div>
+							</div>
+							<div class="items-product-card__buttons buttons-card">
+								<button class="buttons-card__add-order">
+									Добавить в корзину
+								</button>
+								<button data-tippy id="pink" class="buttons-card__favorite">
+									<img src="img/page-product/heart.svg" alt="">
+								</button>
+								<button data-tippy-content="Продукт, добавленный к сравнению"
+									class="buttons-card__srav">
+
+									<img src="img/page-product/srav.svg" alt="">
+								</button>
+							</div>
+							<div class="items-product-card__have">Наличие в магазинах </div>
+						</div>
+					</div>
+					<div class="product-card__details details-product-card">
+						<div class="details-product-card__item">
+							<picture>
+								<source srcset="img/page-product/01.webp" type="image/webp"><img
+									src="img/page-product/01.jpg" alt="">
+							</picture>
+							<div class="details-product-card__text">
+								Бесплатная
+								доставка от 1000 руб
+							</div>
+						</div>
+						<div class="details-product-card__item">
+							<picture>
+								<source srcset="img/page-product/02.webp" type="image/webp"><img
+									src="img/page-product/02.jpg" alt="">
+							</picture>
+							<div class="details-product-card__text">
+								Доставка по всей
+								территории РФ
+							</div>
+						</div>
+						<div class="details-product-card__item">
+							<picture>
+								<source srcset="img/page-product/03.webp" type="image/webp"><img
+									src="img/page-product/03.jpg" alt="">
+							</picture>
+							<div class="details-product-card__text">
+								Гарантия качества
+								продукции
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__info info-section">
+				<div class="info-section__container">
+					<!--  -->
+					<div data-tabs class="info-section__tabs">
+						<nav data-tabs-titles class="info-section__tabs-navigation">
+							<button type="button" class="info-section__tabs-title _tab-active">Описание</button>
+							<button type="button" class="info-section__tabs-title">Применение</button>
+							<button type="button" class="info-section__tabs-title">Бренд</button>
+						</nav>
+						<div data-tabs-body class="info-section__tabs-content content-tabs">
+							<div class="info-section__tabs-body content-tabs__body">
+								<div class="content-tabs__ops ops-content-tabs">
+									<div class="ops-content-tabs__title">Skindom Luxury cell pepride Deep Cleansing oil
+									</div>
+									<div class="ops-content-tabs__article">артикул: 19000000618</div>
+									<div class="ops-content-tabs__ops">Бальзам-ополаскиватель содержит полезные белки
+										и минералы, укрепляющие все слои волосяной структуры от корней до кончиков
+										волос, сохраняя их живыми и блестящими даже после химического воздействия.
+										Восстанавливает pH-баланс волос и кожи головы, обеспечивает защиту структуры
+										волоса от повреждений. Экстракты трёх чёрных семян: риса, фасоли и кунжута
+										в составе — направлены на интенсивное питание и восстановление волос.
+										Экстракты семи чёрных плодов: шелковицы, графа, акантопанакса, сливы, черники
+										и чёрной оливы — увлажняют волосы, делая их гладкими, здоровыми и сильными.
+										Подходит для всех типов волос.</div>
+								</div>
+								<div class="content-tabs__harachters harachters-content-tabs">
+									<div class="harachters-content-tabs__names">
+										<div class="harachters-content-tabs__name">Вид ухода</div>
+										<div class="harachters-content-tabs__name">Эффект</div>
+										<div class="harachters-content-tabs__name">Вес</div>
+										<div class="harachters-content-tabs__name">Объем</div>
+										<div class="harachters-content-tabs__name">Страна производитель</div>
+										<div class="harachters-content-tabs__name">Тип волос</div>
+									</div>
+									<div class="harachters-content-tabs__objects">
+										<div class="harachters-content-tabs__object">
+											Для домашнего ухода, Для
+											косметологов
+										</div>
+										<div class="harachters-content-tabs__object">
+											Блеск, Восстановление, Питание,
+											Против перхоти, Против секущихся кончиков, Увлажнение
+										</div>
+										<div class="harachters-content-tabs__object">
+											1590 г
+										</div>
+										<div class="harachters-content-tabs__object">
+											1500 мл
+										</div>
+										<div class="harachters-content-tabs__object">
+											Южная Корея
+										</div>
+										<div class="harachters-content-tabs__object">
+											Жирная кожа головы, Непослушные
+											волосы, Нормальные волосы, Окрашенные волосы, Сухие и поврежденные волосы
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="info-section__tabs-body content-tabs__body">
+								Вміст другого таба
+							</div>
+							<div class="info-section__tabs-body content-tabs__body">
+								Вміст третього таба
+							</div>
+						</div>
+					</div>
+					<!--  -->
+				</div>
+			</section>
+			<section class="page__gds-interes gds-interes">
+				<div class="gds-interes__container">
+					<div class="gds-interes__header header-gds">
+						<h3 class="gds-interes__title title-gds">Вас могут заинтересовать</h3>
+						<div class="gds-interes__controls controls-gds">
+							<button type="button"
+								class="gds-interes__arrow gds-interes__arrow_left swiper-button-prev-4 arrow-gds">
+								<div class="arrow-1">
+									<div></div>
+								</div>
+							</button>
+							<button type="button" class="gds-interes__arrow swiper-button-next-4 arrow-gds">
+								<div class="arrow-2">
+									<div></div>
+								</div>
+							</button>
+						</div>
+					</div>
+					<div class="gds-interes__slider s4">
+						<div class="gds-interes__wrapper swiper-wrapper">
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/gds/gel-body01.webp" type="image/webp"><img
+												src="img/gds/gel-body01.png" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/page-product/item02.webp" type="image/webp"><img
+												src="img/page-product/item02.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/page-product/item01.webp" type="image/webp"><img
+												src="img/page-product/item01.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/page-product/item03.webp" type="image/webp"><img
+												src="img/page-product/item03.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/gds/gel-body01.webp" type="image/webp"><img
+												src="img/gds/gel-body01.png" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/page-product/item02.webp" type="image/webp"><img
+												src="img/page-product/item02.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/page-product/item03.webp" type="image/webp"><img
+												src="img/page-product/item03.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/page-product/item01.webp" type="image/webp"><img
+												src="img/page-product/item01.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-interes__slide swiper-slide">
+								<article class="item-gds-interes">
+									<a href="product.html" class="item-gds-interes__image">
+										<picture>
+											<source srcset="img/gds/gel-body01.webp" type="image/webp"><img
+												src="img/gds/gel-body01.png" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-interes__body">
+										<h4 class="item-gds-interes__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-interes__description-price description-price">
+											<div class="item-gds-interes__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-interes__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+			</section>
+			<section class="page__gds-foryou gds-foryou">
+				<div class="gds-foryou__container">
+					<div class="gds-foryou__header header-gds">
+						<h3 class="gds-foryou__title title-gds">Похожие товары</h3>
+						<div class="gds-foryou__controls controls-gds">
+							<button type="button"
+								class="gds-foryou__arrow gds-foryou__arrow_left swiper-button-prev-5 arrow-gds">
+								<div class="arrow-1">
+									<div></div>
+								</div>
+							</button>
+							<button type="button" class="gds-foryou__arrow swiper-button-next-5 arrow-gds">
+								<div class="arrow-2">
+									<div></div>
+								</div>
+							</button>
+						</div>
+					</div>
+					<div class="gds-foryou__slider s5">
+						<div class="gds-foryou__wrapper swiper-wrapper">
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/page-product/item03.webp" type="image/webp"><img
+												src="img/page-product/item03.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/page-product/item01.webp" type="image/webp"><img
+												src="img/page-product/item01.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/gds/gel-body01.webp" type="image/webp"><img
+												src="img/gds/gel-body01.png" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/page-product/item03.webp" type="image/webp"><img
+												src="img/page-product/item03.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/page-product/item02.webp" type="image/webp"><img
+												src="img/page-product/item02.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/page-product/item02.webp" type="image/webp"><img
+												src="img/page-product/item02.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/page-product/item01.webp" type="image/webp"><img
+												src="img/page-product/item01.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+							<div class="gds-foryou__slide swiper-slide">
+								<article class="item-gds-foryou">
+									<a href="product.html" class="item-gds-foryou__image">
+										<picture>
+											<source srcset="img/page-product/item02.webp" type="image/webp"><img
+												src="img/page-product/item02.jpg" alt="1">
+										</picture>
+									</a>
+									<div class="item-gds-foryou__body">
+										<h4 class="item-gds-foryou__title title-gds-body">
+											<a href="product.html">Slimming Gel Body</a>
+										</h4>
+										<div class="item-gds-foryou__description-price description-price">
+											<div class="item-gds-foryou__description description-gds-body">Гель для
+												тела
+												для похудения</div>
+											<div class="item-gds-foryou__price">
+												<span class="new-price">2 480 руб</span>
+												<span class="old-price">3579 руб</span>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+
+					<div class="footer__contact contact-footer">
+						<a href="index.html"><img src="img/header/logo.svg" alt="KK-Shop"
+								class="contact-footer__logo"></a>
+						<a class="contact-footer__tel" type="tel" href="tel:+84952592500">8 495 259 25 00</a>
+						<a class="contact-footer__mail" type="mailto" href="mailto:sale@kkshop.ru">Sale@kkshop.ru</a>
+						<a class="contact-footer__map" href="map">Москва, ул. Шаболовка, д. 34, стр. 7</a>
+					</div>
+
+					<div class="footer__katalog katalog-footer">
+						<div class="katalog-footer__title">Каталог</div>
+						<ul class="katalog-footer__items">
+							<a href="">
+								<li class="katalog-footer__item">Очищение</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Пилинги и скрабы</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Тоники</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Кремы</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Концентраты</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Концентраты с ферментамиd</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Сыворотки</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Эссенции</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Эмульсии и гели</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Маски для лица</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Жемчужная линия</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Уход за телом</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Уход за волосами</li>
+							</a>
+							<a href="">
+								<li class="katalog-footer__item">Наборы и аксессуары</li>
+							</a>
+						</ul>
+					</div>
+
+					<div class="footer__info info-footer">
+						<div class="info-footer__header">
+							<div class="info-footer__info info-info-footer">
+								<div class="info-info-footer__title">Информация</div>
+
+								<ul class="info-info-footer__items">
+									<a href="">
+										<li class="info-info-footer__item">Клуб косметологов</li>
+									</a>
+									<a href="">
+										<li class="info-info-footer__item">Сертификаты</li>
+									</a>
+									<a href="">
+										<li class="info-info-footer__item">Доставка и Оплата</li>
+									</a>
+									<a href="">
+										<li class="info-info-footer__item">Конфиденциальность</li>
+									</a>
+									<a href="">
+										<li class="info-info-footer__item">Контакты</li>
+									</a>
+									<a href="">
+										<li class="info-info-footer__item">Блог</li>
+									</a>
+									<a href="">
+										<li class="info-info-footer__item">Возврат</li>
+									</a>
+								</ul>
+
+							</div>
+
+							<div class="info-footer__social social-info-footer">
+								<div class="social-info-footer__title">Мы в социальных сетях</div>
+								<div class="social-info-footer__social">
+									<a href="" class="social-info-footer__link">
+										<img src="img/footer/telegram.svg" alt=""></a>
+									<a href="" class="social-info-footer__link">
+										<img src="img/footer/ok.svg" alt=""></a>
+									<a href="" class="social-info-footer__link">
+										<img src="img/footer/facebook.svg" alt=""></a>
+									<a href="" class="social-info-footer__link">
+										<img src="img/footer/viber.svg" alt=""></a>
+									<a href="" class="social-info-footer__link">
+										<img src="img/footer/watsapp.svg" alt=""></a>
+									<a href="" class="social-info-footer__link">
+										<img src="img/footer/instagramm.svg" alt=""></a>
+									<a href="" class="social-info-footer__link">
+										<img src="img/footer/vk.svg" alt=""></a>
+								</div>
+							</div>
+
+						</div>
+						<div class="info-footer__pay">
+							<img src="img/footer/mir.svg" alt="mir">
+							<img src="img/footer/google-pay.svg" alt="google-pay">
+							<img src="img/footer/visa.svg" alt="visa">
+							<img src="img/footer/webmoney.svg" alt="webmoney">
+							<img src="img/footer/yandex.svg" alt="yandex">
+							<img src="img/footer/master-card.svg" alt="master-card">
+						</div>
+					</div>
+				</div>
+				<div class="footer__last last-footer">
+					<div class="last-footer__cpm">
+						<p class="last-footer__company">ООО «Шармира»</p>
+						<p class="last-footer__log">ОГРН <span>1167746492704</span></p>
+						<p class="last-footer__reg">KK Shop © Москва 2021 Все права защищены.</p>
+					</div>
+					<div class="last-footer__paragraph">
+						Все торговые марки принадлежат их владельцам. Копирование составляющих частей сайта в какой бы
+						то ни
+						было форме без разрешения владельца авторских прав запрещено.
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="/js/app.min.js"></script>
+	<script src="/js/searh.js"></script>
+</body>
+
+</html>
